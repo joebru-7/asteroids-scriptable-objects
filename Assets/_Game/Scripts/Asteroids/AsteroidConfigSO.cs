@@ -10,12 +10,12 @@ namespace Asteroids
 	{
 
 		[Header("Config:")]
-		[SerializeField] public float _minForce;
-		[SerializeField] public float _maxForce;
-		[SerializeField] public float _minSize;
-		[SerializeField] public float _maxSize;
-		[SerializeField] public float _minTorque;
-		[SerializeField] public float _maxTorque;
+		public float _minForce;
+		public float _maxForce;
+		public float _minSize;
+		public float _maxSize;
+		public float _minTorque;
+		public float _maxTorque;
 
 	}
 }

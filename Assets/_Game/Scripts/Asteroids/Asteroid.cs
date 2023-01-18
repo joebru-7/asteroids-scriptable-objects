@@ -10,7 +10,7 @@ namespace Asteroids
     {
         [SerializeField] private ScriptableEventInt _onAsteroidDestroyed;
 
-        [SerializeField] private AsteroidConfigSO _configSO;
+        [SerializeField] public AsteroidConfigSO _configSO;
 
         /*
         [Header("Config:")]

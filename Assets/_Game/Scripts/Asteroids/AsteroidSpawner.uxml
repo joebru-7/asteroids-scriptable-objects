@@ -1,4 +1,5 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
-    <ui:Label text="This is from ui builder" display-tooltip-when-elided="true" />
-    <ui:Slider picking-mode="Ignore" label="Slider" value="42" high-value="100" />
+    <ui:Label text="This is from ui builder" display-tooltip-when-elided="true" binding-path="_asteroidPrefab" />
+    <uie:ObjectField label="Object Field" allow-scene-objects="true" />
+    <uie:PropertyField binding-path="_asteroidPrefab" label="a" style="display: flex; visibility: visible;" />
 </ui:UXML>
