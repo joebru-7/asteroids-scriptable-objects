@@ -3,7 +3,10 @@ guid: 017c14a0b2ceaec4191b684dfd17404f
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - _onAsteroidDestroyed: {instanceID: 0}
+  - _configSO: {fileID: 11400000, guid: b6e3d1ae252fa1541b04ab182d8eb3ae, type: 2}
+  - _shape: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
