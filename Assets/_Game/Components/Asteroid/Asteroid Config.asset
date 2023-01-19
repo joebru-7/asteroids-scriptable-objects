@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Asteroid Config
   m_EditorClassIdentifier: 
   _minForce: 0
-  _maxForce: 3
+  _maxForce: 2
   _minSize: 0.1
   _maxSize: 1
   _minTorque: 0

@@ -12,19 +12,6 @@ namespace Asteroids
 
         [SerializeField] public AsteroidConfigSO _configSO;
 
-        /*
-        [Header("Config:")]
-        [SerializeField] private float _minForce;
-        [SerializeField] private float _maxForce;
-        [SerializeField] private float _minSize;
-        [SerializeField] private float _maxSize;
-        [SerializeField] private float _minTorque;
-        [SerializeField] private float _maxTorque;
-        */
-
-        [Header("References:")]
-        [SerializeField] private Transform _shape;
-
         private Rigidbody2D _rigidbody;
         private Vector3 _direction;
         private int _instanceId;
@@ -103,7 +90,7 @@ namespace Asteroids
         private void SetSize()
         {
             var size = Random.Range(_configSO._minSize, _configSO._maxSize);
-            _shape.localScale = new Vector3(size, size, 0f);
+            transform.localScale = new Vector3(size, size, 0f);
         }
     }
 }

@@ -48,7 +48,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _onAsteroidDestroyed: {fileID: 11400000, guid: 6194a1f60d68f9f4da5519ce74b63a58, type: 2}
   _configSO: {fileID: 11400000, guid: b6e3d1ae252fa1541b04ab182d8eb3ae, type: 2}
-  _shape: {fileID: 1524412162417054026}
 --- !u!50 &1784223117350305362
 Rigidbody2D:
   serializedVersion: 4

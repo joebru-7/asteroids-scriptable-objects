@@ -8,8 +8,6 @@ namespace Asteroids
 	[CreateAssetMenu(fileName = "Asteroid Config", menuName = "ScriptableObjects/AsteroidConfig", order = 0)]
 	public class AsteroidConfigSO : ScriptableObject
 	{
-
-		[Header("Config:")]
 		public float _minForce;
 		public float _maxForce;
 		public float _minSize;
